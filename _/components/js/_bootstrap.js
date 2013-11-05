@@ -1,4 +1,3 @@
-//@codekit-prepend "jquery.js"
 //@codekit-prepend "affix.js"
 //@codekit-prepend "transition.js"
 //@codekit-prepend "tooltip.js"
