@@ -162,7 +162,8 @@
   			</div><!--wrapper-->
   		</div><!--End Content-->
   	</section><!-- container -->
-  
+  	
+  	<script src="_/components/js/jquery.js"></script>
   	<script src="_/js/bootstrap.js"></script>
   	<script src="_/js/myscript.js"></script>
   </body>
