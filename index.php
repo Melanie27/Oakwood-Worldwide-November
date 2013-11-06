@@ -263,7 +263,7 @@
 									</div>
 									<div class="col-md-8">
 										<div class="row">
-											<div class="col-md-6 vertical-center">
+											<div class="col-md-6">
 												<ul class="news-thumbnails events">
 													<li class="clearfix">
 														<img src="images/news/upcoming-events-tb-01.jpg" alt="Upcoming Events 1" class="pull-left">
@@ -291,7 +291,7 @@
 													</li>		
 												</ul>												</div>
 											<div class="row">
-												<div class="col-md-4 col-md-offset-4">All 2013 Events</div>
+												<div class="col-md-4 col-md-offset-4"><a href="#" class="link-archives">All 2013 Events</a></div>
 											</div>
 										</div>
 									</div>
