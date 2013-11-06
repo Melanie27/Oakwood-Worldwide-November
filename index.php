@@ -47,7 +47,7 @@
 		  					</div>
 					  		<div class="row oww-header">
 					  			
-					  				<a href="index.php" id="logo" class="pull-left col-md-2 col-md-offset-1 col-xs-5 col-xs-offset-1">
+					  				<a href="index.php" id="logo" class="pull-left col-md-2 col-md-offset-1 col-xs-5">
 				  						<img src="images/sitewide/logo-oww.jpg" alt="Oakwood Worldwide Logo"  class="img-responsive"/>
 				  					</a>		
 					  			
