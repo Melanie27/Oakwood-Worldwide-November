@@ -64,6 +64,13 @@ ul, li {
 	
 }
 
+h1 {
+		color: @oww-poppy !important;
+		font-family: @oww-font-thin;
+		font-weight:300;
+	
+		} 
+
 // Container
 
 .container.landing {
@@ -85,39 +92,71 @@ ul, li {
 
 header {
 	
-	width:1170px;
 	border:solid 1px blue;
 	margin: 0px auto;
 
-	#branding {
+		
 	
-		border:solid 1px red;
-		width:1170px;
-		height:110px;
-		padding-top:25px;
+}
+
+.navbar-header {
+	width:70px;
+	float:right;
+	height:36px;
 	
-		img {
-			float:left;
-			width:190px;
-		}
-	
-	}
-	
+}
+
+.navbar-header.find-housing {
+	width:110px;
+	margin-top:10px;
+	height:36px;
+	border:solid 1px @oww-light-gray;
+}
+
+.find-housing .btn {
+	background-color:white;
+}
+
+
+
+#logo img {
+	float:left;
+}
+
+.container-fixed {
+	width:1170px;
+	border:solid 1px red;
 	
 }
 
 .navbar-toggle {
-	
-	border:solid 1px pink;
 	position:relative;
-	right:550px;
+	float:right;
     background-image:url(../../images/icons/icon-mobile-menu.jpg);
 }
+
+
+
 
 .two {
 	background-image: url(../../images/sitewide/bg-image-01.jpg);
 	height:512px;	
 	
+}
+
+@media (min-width: 1px) and (max-width: 768px) { 
+
+	.two {
+	/*background-image:none;
+	background-color:"#ffffff;"*/
+	
+	
+	}
+
+	.header-overlay {
+		
+	}
+
 }
 
 .four {
@@ -183,7 +222,7 @@ p {
 
 .navbar-nav > li > a {
 	color: @oww-dark-gray;
-	font-size: @oww-font-size-menu;
+	font-size: @oww-font-size-date;
 	font-family: @oww-font-thin;
 }
 
@@ -196,6 +235,9 @@ p {
 	background-color: #ffffff;
 } 
 
+.oww-header {
+	padding: 2% 0px;;
+}
 
 //header overlay 
 
@@ -217,6 +259,7 @@ p {
 	
 }
 
+
  }
 
 
@@ -231,11 +274,16 @@ p {
 		h1 {
 			margin:0px;
 			font-weight:normal;
+			color:white !important;
 		}
 	}
 
 
 //modules
+
+.headline {
+	width:300px;	
+}
 
 .teasers {
 	padding-left:35px;
@@ -299,8 +347,12 @@ p {
 .three{
 	
 
-		.press-room, .in-the-news, .press-third-col  {
-			padding: 0px 35px !important;
+		.press-room, .in-the-news, .press-third-col, .latest-news  {
+			padding: 0px !important;
+		}
+		
+		.link-archives {
+			margin:0px;
 		}
 	
 	}
@@ -399,3 +451,19 @@ p {
 	
 }
 
+
+@media (min-width: 972px)
+{
+    #collapseTwo,  #collapseThree,  #collapseFour, #collapseFive
+    {
+        display: block;
+    }
+    
+    .panel-heading {
+	    display:none;
+    }
+}
+
+.hidden-md {
+	
+}
