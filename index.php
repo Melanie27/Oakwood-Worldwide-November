@@ -30,57 +30,13 @@
 	  				
 		  				
 		  				
+		  				<?php include "_/components/php/header.php"; ?>
 		  				
 		  				
 		  				
-		  				<header class="clearfix navbar bs-docs-nav">
-		  					<div class="container">
-					  			<div class="row oww-header">
-				  					<div class="navbar-header">	
-					  					<a href="index.php" id="logo" class="pull-left col-md-2 col-md-offset-1 col-xs-6">
-				  							<img src="images/sitewide/logo-oww.jpg" alt="Oakwood Worldwide Logo"  class="img-responsive"/>
-				  						</a>
-					  					
-					  					<button class="btn find-housing" type="button" >Find Housing</button>
-					  					<button class="navbar-toggle btn btn-navbar" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-					  					<span class="sr-only">Toggle navigation</span>
-					  					<span class="icon-bar"></span>
-					  					<span class="icon-bar"></span>
-					  					<span class="icon-bar"></span>
-					  				
-					  					</button>
-					  				</div><!--navbar-->
-				  					<nav class="collapse in navbar-collapse bs-navbar-collapse" role="navigation">
-					  					<ul class="nav navbar-nav ">
-						  					<li>
-							  					<a href="#">Our Brands</a>
-							  				</li>
-							  				<li>
-								  				<a href="#">Global Corporate Housing</a>
-								  			</li>
-								  			<li>
-									  			<a href="#">Industry Insights</a>
-									  		</li>
-									  		<li>
-										  		<a href="#">Vision and Leadership </a>
-										  	</li>
-										  	<li>
-											  	<a href="#">News</a>
-											</li>
-											<li>
-												<a href="#">Marriott</a>
-											</li>
-											<li>
-												<a href="#">Careers</a>
-											</li>	 
-										</ul>	  	
-									</nav>
-								</div><!--row-->
-		  					</div><!--container-->				  									  
-						</header><!-- header -->
 						 
 						<section class="two ">
-														<section class="heading">
+							<section class="heading">
 								<div class="container">
 								<!--<img src="images/sitewide/bg-image-01.jpg" alt="bg-image-01" height="645" class="img-responsive source-image hidden-lg hidden-md hidden-sm">-->
 
@@ -135,301 +91,11 @@
 					<div class="col-lg-12">
 						<section class="clearfix news-topics">
 							<section class="three">
-								
-									
-									<section class="col-md-4 latest-news col-sm-12 col-xs-12 hidden-md hidden-lg">
-																			
-										<div class="panel-group" id="accordion">
-											<div class="panel panel-default">
-												<div class="panel-heading">
-													<h1 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-										
-															<h1>Latest News</h1>
-															<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseOne"></button>
-														</a>
-														<div class="clearfix"></div>
-													</h1>
-												</div>	
-												 <div id="collapseOne" class="panel-collapse collapse in">
-												 	<div class="panel-body">
-														<h1 class="hidden-xs hidden-sm">Latest News</h1>	
-														<section class="latest-releases">
-															<h3 class="hidden-sm hidden-xs">Latest Releases</h3>
-																<ul class="news-thumbnails">
-																	<li class="clearfix">
-																		
-																		
-																		<img src="images/news/latest-news-tb-01.jpg" alt="Press Room 1" class="pull-left">
-																		
-																		<p class="date ">Oct 5, 2013</p>
-																		<p class="headline">Hello Ipsum Dolore Sit Amet Oakwood</p>
-																		
-	
-																	</li>
-																	
-																	<li class="clearfix">		
-																		
-																		
-																		<img src="images/news/latest-news-tb-02.jpg" alt="Press Room 2" class="pull-left">
-																		<p class="date">Oct 5, 2013</p>
-																		<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-																		
-																	</li>
-																	<li class="clearfix">		
-																		<img src="images/news/latest-news-tb-03.jpg" alt="Press Room 2" class="pull-left">
-																		<p class="date">Oct 5, 2013</p>
-																		<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-															
-																	</li>	
-																</ul>
-														</section><!--Latest Releases-->
-											
-											
-														<div class="row">
-															<div class="col-md-8 col-md-offset-2">
-																<a class="link-archives text-center" href="#">View Archives</a>
-															</div>
-														</div>
-										
-								
-									
-									
-													</div><!--panel body-->
-												</div><!--Collapse Two-->
-											</div><!--panel-->
-						
-									</section><!--Latest News-->			
-									
-									<section class="col-md-4 press-room col-sm-12 col-xs-12">
-									
-
-											<div class="panel panel-default">
-												<div class="panel-heading">
-													<h1 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-										
-															<h1 >Press Room</h1>
-															<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseTwo"></button>
-
-															
-														</a>
-													</h1>
-												</div>	
-												 <div id="collapseTwo" class="panel-collapse collapse in">
-												 	<div class="panel-body">
-														<h1 class="hidden-xs hidden-sm">Press Room</h1>	
-														<section class="latest-releases">
-															<h3 class="hidden-sm hidden-xs">Latest Releases</h3>
-																<ul class="news-thumbnails">
-																	<li class="clearfix">
-																		<img src="images/news/press-room-tb-01.jpg" alt="Press Room 1" class="pull-left">
-																		<p class="date">Oct 5, 2013</p>
-																		<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-	
-																	</li>
-													
-																	<li class="clearfix">		
-																		<img src="images/news/press-room-tb-02.jpg" alt="Press Room 2" class="pull-left">
-																		<p class="date">Oct 5, 2013</p>
-																		<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-															
-																	</li>	
-																</ul>
-													
-															</section><!--Latest Releases-->
-											
-															<section class="recent-releases hidden-xs">
-																<div class="row">
-																	<div class="col-md-11">
-																		<h3>Recent Releases</h3>
-																		<ul class="list-unstyled">
-																			<li>Lorem Ipsum Dolore Sit Amet</li>
-																			<li>Headline Lorem Ipsum Dolore Sit Amet Oakwood Worldwide Profits</li>
-																			<li>Headline Lorem Ipsum</li>
-																		</ul>		
-																	</div>
-																</div>			
-															</section><!--Recent Releases-->
-															<div class="row">
-																<div class="col-md-8 col-md-offset-2">
-																	<a class="link-archives text-center" href="#">View Archives</a>
-																</div>
-															</div>
-														</div><!--panel body-->
-													</div><!--Collapse Two-->
-												</div><!--panel-->
-											
-									</section><!--Press Room-->		
-									
-									<section class="col-md-4 press-room col-sm-12 col-xs-12">
-									
-
-											<div class="panel panel-default">
-												<div class="panel-heading">
-													<h1 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-										
-															<h1>In the News</h1>
-															<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseThree"></button>
-
-															
-														</a>
-													</h1>
-												</div>	
-												 <div id="collapseThree" class="panel-collapse collapse in">
-												 	<div class="panel-body">
-														<h1 class="hidden-xs hidden-sm">In the News</h1>		
-														<section class="latest-releases">
-															<h3 class="hidden-sm hidden-xs">Latest Releases</h3>
-																<ul class="news-thumbnails">
-																	<li class="clearfix">
-																		<img src="images/news/in-news-tb-01.jpg" alt="Press Room 1" class="pull-left">
-																		<p class="date">Oct 5, 2013</p>
-																		<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-	
-																	</li>
-													
-																	<li class="clearfix">		
-																		<img src="images/news/in-news-tb-02.jpg" alt="Press Room 2" class="pull-left">
-																		<p class="date">Oct 5, 2013</p>
-																		<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-															
-																	</li>	
-																</ul>
-													
-															</section><!--Latest Releases-->
-											
-															<section class="recent-releases hidden-xs">
-																<div class="row">
-																	<div class="col-md-11">
-																		<h3>Recent Releases</h3>
-																		<ul class="list-unstyled">
-																			<li>Lorem Ipsum Dolore Sit Amet</li>
-																			<li>Headline Lorem Ipsum Dolore Sit Amet Oakwood Worldwide Profits</li>
-																			<li>Headline Lorem Ipsum</li>
-																		</ul>		
-																	</div>
-																</div>			
-															</section><!--Recent Releases-->
-															<div class="row">
-																<div class="col-md-8 col-md-offset-2">
-																	<a class="link-archives text-center" href="#">View Archives</a>
-																</div>
-															</div>
-														</div><!--panel body-->
-													</div><!--Collapse Two-->
-												</div><!--panel-->
-										
-									</section><!--In the News-->	
-									
-									<section class="col-md-4 press-room col-sm-12 col-xs-12">
-									
-
-											<div class="panel panel-default">
-												<div class="panel-heading">
-													<h1 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-										
-															<h1>Awards</h1>
-															<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseFour"></button>
-
-															
-														</a>
-													</h1>
-												</div>	
-												 <div id="collapseFour" class="panel-collapse collapse in">
-												 	<div class="panel-body">
-															
-														<section class="media-relations">
-															<h1>Media Relations</h1>
-															<img src="images/news/media-relations-tb-01.jpg" alt="Sharron Saunders" width="75" height="75" class="pull-left">
-															<h3>Sharron Saunders</h3>
-															<p>Global Communications Lead</p>
-															<a href="#">ssaunders@oakwood.com</a>
-															<p>(240) 720 3003</p>
-															<div class="clearfix"></div>
-														</section><!-Media Relations-->
-											
-														<section class="awards-honors">
-															<h1>Awards and Honors</h1>
-																<div class="row">
-																	<div class="col-md-11">
-																		<ul class="list-unstyled">
-																			<li>Lorem Ipsum Dolore Sit Amet</li>
-																			<li>Headline Lorem Ipsum Dolore Sit Amet Oakwood Worldwide Profits</li>
-																			<li>Headline Lorem Ipsum</li>
-																			<li>Award Lorem Ipsum Dolore Headline Oakwood Worldwide Title</li>
-																		</ul>
-																	</div>
-																</div>		
-																<div class="row">
-																	<div class="col-md-8 col-md-offset-2">
-																		<a class="link-archives text-center" href="#">View Archives</a>
-																	</div>
-																</div>
-															</section><!--Awards and Honors-->
-															
-														</div><!--panel body-->
-													</div><!--Collapse Four-->
-												</div><!--panel-->
-											
-									</section><!--Awards-->		
-									
-									
-									<section class="col-md-4 press-room col-sm-12 col-xs-12 hidden-md">
-									
-
-											<div class="panel panel-default">
-												<div class="panel-heading">
-													<h1 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-										
-															<h1>Upcoming Events</h1>
-															<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseFive"></button>
-															
-														</a>
-													</h1>
-												</div>	
-												 <div id="collapseFive" class="panel-collapse collapse in">
-												 	<div class="panel-body">
-															
-														<section class="media-relations">
-															<h1>Events</h1>
-															<ul class="news-thumbnails events">
-													<li class="clearfix">
-														<img src="images/news/upcoming-events-tb-01.jpg" alt="Upcoming Events 1" class="pull-left">
-														<p class="date">Oct 5, 2013</p>
-														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-													</li>
-													<li class="clearfix">
-														<img src="images/news/upcoming-events-tb-02.jpg" alt="In the News 2" class="pull-left">
-														<p class="date">Oct 5, 2013</p>
-														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-													</li>	
-													<li class="clearfix">
-														<img src="images/news/upcoming-events-tb-03.jpg" alt="Upcoming Events 1" class="pull-left">
-														<p class="date">Oct 5, 2013</p>
-														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-													</li>
-													<li class="clearfix">
-														<img src="images/news/upcoming-events-tb-04.jpg" alt="In the News 2" class="pull-left">
-														<p class="date">Oct 5, 2013</p>
-														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-													</li>		
-												</ul>	
-														</section><!-Media Relations-->
-											
-														
-															
-														</div><!--panel body-->
-													</div><!--Collapse Four-->
-												</div><!--panel-->
-											
-									</section><!--Events-->	
-												
-									
-								
+									<?php include "_/components/php/latest-news.php"; ?>	
+									<?php include "_/components/php/press-room.php"; ?>	
+									<?php include "_/components/php/in-the-news.php"; ?>	
+									<?php include "_/components/php/awards-honors.php"; ?>
+									<?php include "_/components/php/events-mobile.php"; ?>	
 							</section><!--three-->
 						</section><!--news-topics-->
 					</div>
@@ -446,14 +112,8 @@
 					<div class="col-lg-12">
 						<section class="five">
 							<div class="container">
-								
-								
 								<section class="upcoming-events">
 									<div class="col-md-4 events-blurb">
-										
-										
-										
-										
 										<h1>Upcoming Events</h1>
 										<img src="images/news/upcoming-events-01.jpg" alt="upcoming-events-01" class="img-responsive">
 										<p>Sed aucto lorem ipsum dolore sit amet ndisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posu aesent. Vestibulum ante ipsum primis in faucibus orci luctus.</p>
@@ -493,14 +153,9 @@
 												<div class="col-md-4 col-md-offset-4"><a href="#" class="link-archives">All 2013 Events</a></div>
 											</div>
 										</div>
-									
-									
-									
-									
 									</div>
 								</section>
-								
-								
+
 							</div><!--container-->
 						</section><!--five-->
 					</div>

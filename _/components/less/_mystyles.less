@@ -354,7 +354,7 @@ p {
 .three{
 	
 
-		.press-room, .in-the-news, .press-third-col, .latest-news  {
+		.press-room, .in-the-news, .press-third-col, .latest-news, .awards-honors, .events-mobile  {
 			padding: 0px !important;
 		}
 		
@@ -380,7 +380,7 @@ p {
 
 .three {
 
-	.press-room, .in-the-news, .press-third-col  {
+	.press-room, .in-the-news, .press-third-col, .awards-honors  {
 		border-right:solid 1px @oww-light-gray;
 		padding: 42px 35px;
 	}
@@ -423,7 +423,7 @@ p {
 }
 
 .latest-releases {
-	margin-bottom:45px;
+	/*margin-bottom:45px;*/
 	
 	}
 
@@ -473,9 +473,16 @@ p {
     }
 }
 
-.hidden-md {
-	
+@media (min-width: 400px)
+{
+    .find-housing
+    {
+        display: none;
+    }
+    
+   
 }
+
 
      
      .panel-default > .panel-heading {
@@ -497,7 +504,7 @@ p {
      
         
      
-@media (min-width: 1px) and (max-width: 400px) { 
+@media (min-width: 1px) and (max-width: 480px) { 
 
 	body p { font-size:90%;}
                     
@@ -510,6 +517,8 @@ p {
 	
 	
 	}
+	
+	
 	
 	#logo {
 		
