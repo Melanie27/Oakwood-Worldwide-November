@@ -86,13 +86,9 @@ h1 {
 	position:relative;
 }
 
-.wrapper {
-	
-}
 
 header {
 	
-	border:solid 1px blue;
 	margin: 0px auto;
 
 		
@@ -107,7 +103,7 @@ header {
 }
 
 .navbar-header.find-housing {
-	width:110px;
+	width:100px;
 	margin-top:10px;
 	height:36px;
 	border:solid 1px @oww-light-gray;
@@ -117,6 +113,25 @@ header {
 	background-color:white;
 }
 
+
+.btn.mobile-toggle {
+
+	background-image: url(../../images/icons/icon-mobile-expand.jpg);
+	background-color:white;
+	position:absolute;
+	top:40px;
+	right:50px;
+	width:13px;
+	height:13px;
+	background-repeat:no-repeat;
+}
+
+.btn:active.mobile-toggle,
+.btn.active.mobile-toggle {
+    background-image: url(../../images/icons/icon-mobile-contract.jpg);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.125) inset;
+    outline: 0 none;
+}
 
 
 #logo img {
@@ -144,18 +159,15 @@ header {
 	
 }
 
-@media (min-width: 1px) and (max-width: 768px) { 
+@media (min-width: 1px) and (max-width: 400px) { 
 
 	.two {
-	/*background-image:none;
-	background-color:"#ffffff;"*/
+	height:200px;
 	
 	
 	}
 
-	.header-overlay {
-		
-	}
+	
 
 }
 
@@ -236,7 +248,7 @@ p {
 } 
 
 .oww-header {
-	padding: 2% 0px;;
+	padding: 5% 0px;;
 }
 
 //header overlay 
@@ -353,6 +365,8 @@ p {
 		
 		.link-archives {
 			margin:0px;
+			line-height:40px;
+			height:40px;
 		}
 	
 	}
@@ -467,3 +481,17 @@ p {
 .hidden-md {
 	
 }
+
+@media only screen and (max-width: 400px) {
+                    body p { font-size:90%;}
+                    
+                    h1 { font-size:1.6em;}
+     }
+     
+     .panel-default > .panel-heading {
+	     background-color:white;
+     }
+     
+     .panel {
+	     margin-bottom:0px;
+     }
