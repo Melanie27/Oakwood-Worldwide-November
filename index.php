@@ -23,69 +23,67 @@
   <body id="home">
   	<section class="container landing">
   		<div class="content">
-  			<div class="wrapper">
+  				
+  				<div class="wrapper">
   				
   				<div class="content">
 	  				
-		  				<header class="clearfix">
-		  					
 		  				
-		  					
-		  					<div class="navbar-header">
-					  			<button class="navbar-toggle btn btn-navbar" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-					  				<span class="sr-only">Toggle navigation</span>
-					  				<span class="icon-bar"></span>
-					  				<span class="icon-bar"></span>
-					  				<span class="icon-bar"></span>
+		  				
+		  				
+		  				
+		  				
+		  				<header class="clearfix navbar bs-docs-nav">
+		  					<div class="container">
+					  			<div class="row oww-header">
+				  					<div class="navbar-header">	
+					  					<a href="index.php" id="logo" class="pull-left col-md-2 col-md-offset-1 col-xs-6">
+				  							<img src="images/sitewide/logo-oww.jpg" alt="Oakwood Worldwide Logo"  class="img-responsive"/>
+				  						</a>
+					  					
+					  					<button class="btn find-housing" type="button" >Find Housing</button>
+					  					<button class="navbar-toggle btn btn-navbar" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+					  					<span class="sr-only">Toggle navigation</span>
+					  					<span class="icon-bar"></span>
+					  					<span class="icon-bar"></span>
+					  					<span class="icon-bar"></span>
 					  				
-					  			</button>
-		  					</div>
-		  					
-		  					<div class="navbar-header find-housing hidden-md hidden-sm hidden-lg">
-					  			<button class="btn" type="button" >Find Housing</button>
-					  				
-		  					</div>
-					  		<div class="row oww-header">
-					  			
-					  				<a href="index.php" id="logo" class="pull-left col-md-2 col-md-offset-1 col-xs-5">
-				  						<img src="images/sitewide/logo-oww.jpg" alt="Oakwood Worldwide Logo"  class="img-responsive"/>
-				  					</a>		
-					  			
-					  		
-				  					<nav class="collapse in navbar-collapse bs-navbar-collapse pull-right" role="navigation">
+					  					</button>
+					  				</div><!--navbar-->
+				  					<nav class="collapse in navbar-collapse bs-navbar-collapse" role="navigation">
 					  					<ul class="nav navbar-nav ">
-						  					<li >
-							  			<a href="#">Our Brands</a>
-							  		</li>
-							  		<li >
-								  		<a href="#">Global Corporate Housing</a>
-								  	</li>
-								  	<li >
-									 	<a href="#">Industry Insights</a>
-									 </li>
-									  <li >
-										  <a href="#">Vision and Leadership </a>
-									</li>
-									<li >
-										<a href="#">News</a>
-									</li>
-									<li >
-										<a href="#">Marriott</a>
-									</li>
-									<li >
-										<a href="#">Careers</a>
-									</li>
-											 
-								</ul>
-											  	
-								</nav>
-		  					</div>
-					  					  									  
+						  					<li>
+							  					<a href="#">Our Brands</a>
+							  				</li>
+							  				<li>
+								  				<a href="#">Global Corporate Housing</a>
+								  			</li>
+								  			<li>
+									  			<a href="#">Industry Insights</a>
+									  		</li>
+									  		<li>
+										  		<a href="#">Vision and Leadership </a>
+										  	</li>
+										  	<li>
+											  	<a href="#">News</a>
+											</li>
+											<li>
+												<a href="#">Marriott</a>
+											</li>
+											<li>
+												<a href="#">Careers</a>
+											</li>	 
+										</ul>	  	
+									</nav>
+								</div><!--row-->
+		  					</div><!--container-->				  									  
 						</header><!-- header -->
 						 
 						<section class="two ">
-							<section class="heading">
+														<section class="heading">
 								<div class="container">
+								<!--<img src="images/sitewide/bg-image-01.jpg" alt="bg-image-01" height="645" class="img-responsive source-image hidden-lg hidden-md hidden-sm">-->
+
 									<h1>News</h1>
 								</div>
 							</section><!--heading-->
@@ -107,11 +105,12 @@
 										<ul class="news-thumbnails">
 											<li class="clearfix">
 												
-													<img src="images/news/latest-news-tb-01.jpg" alt="latest-news-tb-01" class="pull-left">
+												<img src="images/news/latest-news-tb-01.jpg" alt="latest-news-tb-01" class="pull-left">
 												
 												
 												<p class="date">Oct 5, 2013</p>
 												<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
+												
 												
 											</li>
 											<li class="clearfix">
@@ -159,17 +158,23 @@
 															<h3 class="hidden-sm hidden-xs">Latest Releases</h3>
 																<ul class="news-thumbnails">
 																	<li class="clearfix">
+																		
+																		
 																		<img src="images/news/latest-news-tb-01.jpg" alt="Press Room 1" class="pull-left">
-																		<p class="date">Oct 5, 2013</p>
-																		<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
+																		
+																		<p class="date ">Oct 5, 2013</p>
+																		<p class="headline">Hello Ipsum Dolore Sit Amet Oakwood</p>
+																		
 	
 																	</li>
-													
+																	
 																	<li class="clearfix">		
+																		
+																		
 																		<img src="images/news/latest-news-tb-02.jpg" alt="Press Room 2" class="pull-left">
 																		<p class="date">Oct 5, 2013</p>
 																		<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-															
+																		
 																	</li>
 																	<li class="clearfix">		
 																		<img src="images/news/latest-news-tb-03.jpg" alt="Press Room 2" class="pull-left">
@@ -381,6 +386,7 @@
 														<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
 										
 															<h1>Upcoming Events</h1>
+															<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseFive"></button>
 															
 														</a>
 													</h1>

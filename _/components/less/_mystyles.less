@@ -87,30 +87,21 @@ h1 {
 }
 
 
-header {
-	
-	margin: 0px auto;
 
-		
+.find-housing{
+	padding:0px;
 	
 }
 
-.navbar-header {
-	width:70px;
-	float:right;
-	height:36px;
-	
-}
 
-.navbar-header.find-housing {
-	width:100px;
-	margin-top:10px;
-	height:36px;
-	border:solid 1px @oww-light-gray;
-}
-
-.find-housing .btn {
+.btn.find-housing  {
 	background-color:white;
+	border:solid 1px @oww-light-gray;
+	font-size:12px;
+	margin-right:0px;
+	margin-left:0px;
+	width:auto;
+	padding:6px;
 }
 
 
@@ -119,8 +110,8 @@ header {
 	background-image: url(../../images/icons/icon-mobile-expand.jpg);
 	background-color:white;
 	position:absolute;
-	top:40px;
-	right:50px;
+	right: 10px;
+    top: 32px;
 	width:13px;
 	height:13px;
 	background-repeat:no-repeat;
@@ -134,9 +125,12 @@ header {
 }
 
 
-#logo img {
-	float:left;
-}
+#logo {
+
+	img {
+		float:left;
+		}
+	}
 
 .container-fixed {
 	width:1170px;
@@ -145,8 +139,8 @@ header {
 }
 
 .navbar-toggle {
-	position:relative;
-	float:right;
+	margin-top:0px;
+	
     background-image:url(../../images/icons/icon-mobile-menu.jpg);
 }
 
@@ -155,21 +149,19 @@ header {
 
 .two {
 	background-image: url(../../images/sitewide/bg-image-01.jpg);
-	height:512px;	
+	height:512px;
+		
+	
 	
 }
 
-@media (min-width: 1px) and (max-width: 400px) { 
-
-	.two {
-	height:200px;
-	
-	
-	}
-
-	
-
+.source-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
 
 .four {
 	background-image: url(../../images/sitewide/bg-image-02.jpg);
@@ -184,7 +176,8 @@ header {
 .two, .four, .six {
 	background-attachment: fixed;
     background-position: center center;
-    background-size: cover;
+   background-size: cover;
+   background-repeat:no-repeat;
 }
 
 .content-container {
@@ -257,7 +250,7 @@ p {
 	padding:40px;
 	margin:35px 0px;
 	background-color:#ffffff;
-	height:350px;
+	min-height:350px;
 	
 	section {
 		background-color:#ffffff;
@@ -279,7 +272,7 @@ p {
 .heading {
 	background-color: @oww-poppy;
 	opacity:.9;
-	padding: 25px 0px;
+	padding: 0px 0px;
 	color: white;
 	font-family: @oww-font-thin;
 	
@@ -287,6 +280,7 @@ p {
 			margin:0px;
 			font-weight:normal;
 			color:white !important;
+			line-height:60px;
 		}
 	}
 
@@ -294,7 +288,8 @@ p {
 //modules
 
 .headline {
-	width:300px;	
+	/*width:300px;*/	
+	font-size: .9em;
 }
 
 .teasers {
@@ -482,16 +477,47 @@ p {
 	
 }
 
-@media only screen and (max-width: 400px) {
-                    body p { font-size:90%;}
-                    
-                    h1 { font-size:1.6em;}
-     }
      
      .panel-default > .panel-heading {
 	     background-color:white;
+	     border-bottom: solid 1px @oww-light-gray;
+	     border-top: none;
+     }
+     
+     .panel-default {
+	     border:none;
      }
      
      .panel {
 	     margin-bottom:0px;
+	     box-shadow:none;
+	     border-radius:0px;;
      }
+     
+     
+        
+     
+@media (min-width: 1px) and (max-width: 400px) { 
+
+	body p { font-size:90%;}
+                    
+    h1 { font-size:1.15em;}
+
+	.two {
+	
+	background-repeat:no-repeat;
+	height:200px;
+	
+	
+	}
+	
+	#logo {
+		
+		img {
+			
+		}
+	}
+
+	
+
+}     
