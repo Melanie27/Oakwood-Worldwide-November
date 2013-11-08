@@ -1,4 +1,4 @@
-<section class="col-md-4 in-the-news col-sm-12 col-xs-12">
+									
 									
 
 											<div class="panel panel-default">
@@ -36,25 +36,11 @@
 													
 															</section><!--Latest Releases-->
 											
-															<section class="recent-releases hidden-xs">
-																<div class="row">
-																	<div class="col-md-11">
-																		<h3>Recent Releases</h3>
-																		<ul class="list-unstyled">
-																			<li>Lorem Ipsum Dolore Sit Amet</li>
-																			<li>Headline Lorem Ipsum Dolore Sit Amet Oakwood Worldwide Profits</li>
-																			<li>Headline Lorem Ipsum</li>
-																		</ul>		
-																	</div>
-																</div>			
-															</section><!--Recent Releases-->
-															<div class="row">
-																<div class="col-md-8 col-md-offset-2">
-																	<a class="link-archives text-center" href="#">View Archives</a>
-																</div>
-															</div>
+															<?php include "_/components/php/recent-releases.php"; ?>
+															
+															<?php include "_/components/php/btn-view-archives.php"; ?>
 														</div><!--panel body-->
 													</div><!--Collapse Two-->
 												</div><!--panel-->
 										
-									</section><!--In the News-->
+									

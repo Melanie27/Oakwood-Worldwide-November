@@ -1,4 +1,4 @@
-<section class="col-md-4 latest-news col-sm-12 col-xs-12 hidden-md hidden-lg">							
+						<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg latest-news">							
 										<div class="panel-group" id="accordion">
 											<div class="panel panel-default">
 												<div class="panel-heading">
@@ -16,37 +16,7 @@
 														<h1 class="hidden-xs hidden-sm">Latest News</h1>	
 														<section class="latest-releases">
 															<h3 class="hidden-sm hidden-xs">Latest Releases</h3>
-																<ul class="news-thumbnails">
-																	
-																	
-																	
-																	<li class="clearfix">
-																	
-																	<div>	
-																		<img src="images/news/latest-news-tb-01.jpg" alt="Press Room 1" class="pull-left">
-																	
-																	
-																		<p class="date ">Oct 5, 2013</p>
-																		<p class="headline">Hello Ipsum Dolore Sit Amet Oakwood</p>
-																		
-	
-																	</li>
-																	
-																	<li class="clearfix">		
-																		
-																		
-																		<img src="images/news/latest-news-tb-02.jpg" alt="Press Room 2" class="pull-left">
-																		<p class="date">Oct 5, 2013</p>
-																		<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-																		
-																	</li>
-																	<li class="clearfix">		
-																		<img src="images/news/latest-news-tb-03.jpg" alt="Press Room 2" class="pull-left">
-																		<p class="date">Oct 5, 2013</p>
-																		<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-															
-																	</li>	
-																</ul>
+																<?php include "_/components/php/news-thumbs.php"; ?>
 																<div class="clearfix"></div>
 														</section><!--Latest Releases-->
 											

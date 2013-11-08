@@ -21,87 +21,39 @@
    
   </head>
   <body id="home">
-  	<section class="container landing">
-  		<div class="content">
-  				
-  				<div class="wrapper">
-  				
-  				<div class="content">
-	  				
-		  				
-		  				
-		  				<?php include "_/components/php/header.php"; ?>
-		  				
-		  				
-		  				
-						 
-						<section class="two ">
-							<section class="heading">
-								<div class="container">
-								<!--<img src="images/sitewide/bg-image-01.jpg" alt="bg-image-01" height="645" class="img-responsive source-image hidden-lg hidden-md hidden-sm">-->
+  		<section class="container landing">
 
-									<h1>News</h1>
-								</div>
-							</section><!--heading-->
-							<div class="container hidden-xs hidden-sm">
-								<div class="row overlay">
-									<section class="header-overlay col-sm-12 col-xs-12">
-										
-										<section class="cover-story col-md-4 hidden-sm hidden-xs" style="min-height:350px;">
-											<img src="images/news/cover-story-tb-01.jpg" alt="cover-story-tb-01" class="img-responsive">
-										</section>
-										
-										<section class="blurb col-md-4 hidden-sm hidden-xs" style="min-height:350px;">
-											<h2>Story Title Lorem Ipsum Dolore Sit Amet</h2>
-											<P><span class="city">LOS ANGELES</span> - July 31, 2013 - Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor sppo suere lorem ipsum.</P>
-											<p class="full-story"><a href="#">Full Story</a></p>
-										</section>
-									
-										<section class="teasers col-md-4" style="min-height:350px;">
-											<ul class="news-thumbnails">
-												<li class="clearfix">
+		  		<?php include "_/components/php/header.php"; ?>
+		  		<?php include "_/components/php/hero.php"; ?>
+		  				
+						
+							<section class="three container">
+								<div class="row over2">
+									<section class="col-lg-12 col-md-12">
+										<div class="row>"
 												
-													<img src="images/news/latest-news-tb-01.jpg" alt="latest-news-tb-01" class="pull-left">
-												
-												
-													<p class="date">Oct 5, 2013</p>
-													<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-												
-												
-													</li>
-													<li class="clearfix">
-														<img src="images/news/latest-news-tb-02.jpg" alt="latest-news-tb-01" class="pull-left img-responsive">
-														<p class="date">Oct 5, 2013</p>
-														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-													</li>
-													<li class="clearfix">
-														<img src="images/news/latest-news-tb-03.jpg" alt="latest-news-tb-01" class="pull-left">
-														<p class="date">Oct 5, 2013</p>
-														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-													</li>
-												</ul>
-											</section>
+											<?php include "_/components/php/latest-news.php"; ?>
 											
-									</section><!--header overlay-->		
-								</div><!--row-->								
-							</div><!--container-->
-						</section> <!--two-->	 
-				
-				</div><!-- content -->
-				
-				<div class="content row">
-					<div class="col-lg-12">
-						<section class="clearfix news-topics">
-							<section class="three">
-									<?php include "_/components/php/latest-news.php"; ?>	
-									<?php include "_/components/php/press-room.php"; ?>	
-									<?php include "_/components/php/in-the-news.php"; ?>	
-									<?php include "_/components/php/awards-honors.php"; ?>
-									<?php include "_/components/php/events-mobile.php"; ?>	
+											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols first-col">	
+												<?php include "_/components/php/press-room.php"; ?>	
+											</section><!--Press Room-->	
+											
+											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols second-col">
+												<?php include "_/components/php/in-the-news.php"; ?>
+											</section><!--In the News-->
+												
+											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols third-col">	
+													<?php include "_/components/php/awards-honors.php"; ?>
+											</section><!--Awards-->		
+											
+											
+											<?php include "_/components/php/events-mobile.php"; ?>	
+										</div><!--end nested row-->
+									</section>
+								</div><!--row-->
 							</section><!--three-->
-						</section><!--news-topics-->
-					</div>
-				</div><!-- content -->
+						
+					
 				
 				<div class="content row">
 					<div class="col-lg-12">
@@ -152,7 +104,9 @@
 												</ul>												
 											</div>
 											<div class="row">
-												<div class="col-md-4 col-md-offset-4"><a href="#" class="link-archives">All 2013 Events</a></div>
+												<div class="col-md-6 col-md-offset-3">
+													<a href="#" class="link-archives">All 2013 Events</a>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -175,8 +129,8 @@
 					<footer class="col-md-4 col-md-offset-4"><a href="#" class="link-archives">Footer</a></footer>
 				</div><!--Footer-->
 
-  			</div><!--wrapper-->
-  		</div><!--End Content-->
+  			
+  		
   	</section><!-- container -->
   	
   
