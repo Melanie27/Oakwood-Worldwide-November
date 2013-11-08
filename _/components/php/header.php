@@ -23,7 +23,7 @@
 				<!--</div><!--row-->	
 				</div><!--navbar-->
 				 
-				 <nav class="collapse in navbar-collapse bs-navbar-collapse col-lg-9 col-md-10 col-sm-6 pull-right" role="navigation">
+				 <nav class="collapse in navbar-collapse bs-navbar-collapse col-lg-9 col-md-10 col-sm-6" role="navigation">
 					 <ul class="nav navbar-nav ">
 					<li>
 						<a href="#">Our Brands</a>
@@ -35,7 +35,7 @@
 						<a href="#">Industry Insights</a>
 					</li>
 					<li>
-						<a href="#">Vision and Leadership </a>
+						<a href="#">Vision and Leadership</a>
 					</li>
 					<li>
 						<a href="#">News</a>

@@ -31,8 +31,10 @@
 								<div class="row over2">
 									<section class="col-lg-12 col-md-12">
 										<div class="row>"
-												
+											
+											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg hidden-sm latest-news">		
 											<?php include "_/components/php/latest-news.php"; ?>
+											</section><!--Latest News-->
 											
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols first-col">	
 												<?php include "_/components/php/press-room.php"; ?>	

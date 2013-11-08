@@ -1,10 +1,10 @@
-						<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg hidden-sm latest-news">							
+												
 										<div class="panel-group" id="accordion">
+											
 											<div class="panel panel-default">
 												<div class="panel-heading">
 													<h1 class="panel-title">
 														<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-										
 															<h1>Latest News</h1>
 															<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseOne"></button>
 														</a>
@@ -29,4 +29,4 @@
 													</div><!--panel body-->
 												</div><!--Collapse Two-->
 											</div><!--panel-->
-									</section><!--Latest News-->
+									

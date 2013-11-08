@@ -95,6 +95,7 @@ p {
 
 
 
+
 .btn.find-housing  {
 	background-color:white;
 	border:solid 1px @oww-light-gray;
@@ -221,7 +222,7 @@ footer {
 
 .over {
 	background-color:white;
-	margin: 50px auto;
+	margin: 45px auto;
 	padding:35px 30px 15px 30px;
 			
 }
@@ -237,12 +238,14 @@ footer {
 			margin:0px;
 			font-weight:normal;
 			color:white !important;
-			line-height:60px;
+			line-height:90px;
 		}
 	}
 
 
-//modules
+.oww-header {
+	padding-top:30px;
+}
 
 
 
@@ -466,6 +469,25 @@ footer {
 		padding:0px;    
 	    
     }
+    
+    nav {
+	    float:right !important;
+    }
+}
+
+@media (max-width:972px) {
+	.three .first-col, .three .second-col  {
+		border-right:none
+	}
+	
+	
+}
+
+
+@media (mind-width: 768px) {
+	.navbar-nav {
+		float:left;
+	}
 }
 
 @media (min-width: 400px)
@@ -483,6 +505,7 @@ footer {
      .panel-default > .panel-heading {
 	     background-color:white;
 	     border-bottom: solid 1px @oww-light-gray;
+	     border-right: solid 1px @oww-light-gray;
 	     border-top: none;
      }
      
@@ -494,6 +517,10 @@ footer {
 	     margin-bottom:0px;
 	     box-shadow:none;
 	     border-radius:0px;;
+     }
+     
+     .panel-heading {
+	     border-bottom:none;
      }
      
      
