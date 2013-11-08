@@ -67,15 +67,15 @@
 						<section class="five">
 							<div class="container">
 								<section class="upcoming-events">
-									<div class="col-md-4 events-blurb">
+									<div class="col-md-4 hidden-sm events-blurb">
 										<h1>Upcoming Events</h1>
 										<img src="images/news/upcoming-events-01.jpg" alt="upcoming-events-01" class="img-responsive">
 										<p>Sed aucto lorem ipsum dolore sit amet ndisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posu aesent. Vestibulum ante ipsum primis in faucibus orci luctus.</p>
 										
 									</div>
-									<div class="col-md-8">
+									<div class="col-md-8 col-sm-12">
 										<div class="row">
-											<div class="col-md-6">
+											<div class="col-md-6 col-sm-6">
 												<ul class="news-thumbnails events">
 													<li class="clearfix">
 														<img src="images/news/upcoming-events-tb-01.jpg" alt="Upcoming Events 1" class="pull-left">
@@ -89,7 +89,7 @@
 													</li>		
 												</ul>	
 											</div>
-											<div class="col-md-6">
+											<div class="col-md-6 col-sm-6">
 												<ul class="news-thumbnails events">
 													<li class="clearfix">
 														<img src="images/news/upcoming-events-tb-01.jpg" alt="Upcoming Events 1" class="pull-left">
@@ -104,7 +104,7 @@
 												</ul>												
 											</div>
 											<div class="row">
-												<div class="col-md-6 col-md-offset-3">
+												<div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
 													<a href="#" class="link-archives">All 2013 Events</a>
 												</div>
 											</div>

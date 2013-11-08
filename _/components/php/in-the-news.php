@@ -35,6 +35,7 @@
 																</ul>
 													
 															</section><!--Latest Releases-->
+															<div class="clearfix"></div>
 											
 															<?php include "_/components/php/recent-releases.php"; ?>
 															

@@ -1,11 +1,11 @@
 <header class="navbar bs-docs-nav">
 	<div class="container">
 		<div class="row oww-header">
-			<div class="navbar-header col-lg-3 col-md-3 col-sm-12 col-xs-12 pull-left">	
+			<div class="navbar-header col-lg-3 col-md-2 col-sm-6 col-xs-12 pull-left">	
 				
-				<!--<div class="row">-->
+				
 					<a href="index.php" id="logo">
-				 		<img src="images/sitewide/logo-oww.jpg" alt="Oakwood Worldwide Logo" />
+				 		<img src="images/sitewide/logo-oww.jpg" alt="Oakwood Worldwide Logo" class="img-responsive"/>
 				 	</a>
 				
 					  					
@@ -23,7 +23,7 @@
 				<!--</div><!--row-->	
 				</div><!--navbar-->
 				 
-				 <nav class="collapse in navbar-collapse bs-navbar-collapse col-lg-9 col-md-9" role="navigation">
+				 <nav class="collapse in navbar-collapse bs-navbar-collapse col-lg-9 col-md-10 col-sm-6 pull-right" role="navigation">
 					 <ul class="nav navbar-nav ">
 					<li>
 						<a href="#">Our Brands</a>

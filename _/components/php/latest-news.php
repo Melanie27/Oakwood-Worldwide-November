@@ -1,4 +1,4 @@
-						<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg latest-news">							
+						<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg hidden-sm latest-news">							
 										<div class="panel-group" id="accordion">
 											<div class="panel panel-default">
 												<div class="panel-heading">

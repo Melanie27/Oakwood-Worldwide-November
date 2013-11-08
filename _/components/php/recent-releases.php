@@ -1,4 +1,4 @@
-															<section class="recent-releases hidden-xs">
+															<section class="recent-releases hidden-sm hidden-xs">
 																<div class="row">
 																	<div class="col-md-11">
 																		<h3>Recent Releases</h3>
