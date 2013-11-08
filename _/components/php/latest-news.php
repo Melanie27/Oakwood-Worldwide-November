@@ -17,11 +17,15 @@
 														<section class="latest-releases">
 															<h3 class="hidden-sm hidden-xs">Latest Releases</h3>
 																<ul class="news-thumbnails">
+																	
+																	
+																	
 																	<li class="clearfix">
-																		
-																		
+																	
+																	<div>	
 																		<img src="images/news/latest-news-tb-01.jpg" alt="Press Room 1" class="pull-left">
-																		
+																	
+																	
 																		<p class="date ">Oct 5, 2013</p>
 																		<p class="headline">Hello Ipsum Dolore Sit Amet Oakwood</p>
 																		
@@ -43,6 +47,7 @@
 															
 																	</li>	
 																</ul>
+																<div class="clearfix"></div>
 														</section><!--Latest Releases-->
 											
 											

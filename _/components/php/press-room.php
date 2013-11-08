@@ -20,9 +20,15 @@
 															<h3 class="hidden-sm hidden-xs">Latest Releases</h3>
 																<ul class="news-thumbnails">
 																	<li class="clearfix">
-																		<img src="images/news/press-room-tb-01.jpg" alt="Press Room 1" class="pull-left">
-																		<p class="date">Oct 5, 2013</p>
-																		<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
+																		<div class="row">	
+																	<div class="col-xs-4 col-sm-6 col-md-6 col-lg-5">	
+																		<img src="images/news/press-room-01.jpg" alt="Press Room 1" class="pull-left img-responsive">
+																	</div>	
+																	<div class="col-sm-6 col-md-6 col-lg-7">
+																		<p class="date ">Oct 5, 2013</p>
+																		<p class="headline">Hello Ipsum Dolore Sit Amet Oakwood</p>
+																	</div>
+																	</div>	
 	
 																	</li>
 													
@@ -33,7 +39,7 @@
 															
 																	</li>	
 																</ul>
-													
+																<div class="clearfix">
 															</section><!--Latest Releases-->
 											
 															<section class="recent-releases hidden-xs">

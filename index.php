@@ -44,43 +44,45 @@
 								</div>
 							</section><!--heading-->
 							<div class="container hidden-xs hidden-sm">
-								<div class="row">
+								<div class="row overlay">
 									<section class="header-overlay col-sm-12 col-xs-12">
 										
-									<section class="cover-story col-md-4 hidden-sm hidden-xs">
-										<img src="images/news/cover-story-tb-01.jpg" alt="cover-story-tb-01" class="img-responsive">
-									</section>
+										<section class="cover-story col-md-4 hidden-sm hidden-xs" style="min-height:350px;">
+											<img src="images/news/cover-story-tb-01.jpg" alt="cover-story-tb-01" class="img-responsive">
+										</section>
 										
-									<section class="blurb col-md-4 hidden-sm hidden-xs">
-										<h2>Story Title Lorem Ipsum Dolore Sit Amet</h2>
-										<P><span class="city">LOS ANGELES</span> - July 31, 2013 - Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor sppo suere lorem ipsum.</P>
-										<p class="full-story"><a href="#">Full Story</a></p>
-									</section>
+										<section class="blurb col-md-4 hidden-sm hidden-xs" style="min-height:350px;">
+											<h2>Story Title Lorem Ipsum Dolore Sit Amet</h2>
+											<P><span class="city">LOS ANGELES</span> - July 31, 2013 - Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor sppo suere lorem ipsum.</P>
+											<p class="full-story"><a href="#">Full Story</a></p>
+										</section>
 									
-									<section class="teasers col-md-4">
-										<ul class="news-thumbnails">
-											<li class="clearfix">
+										<section class="teasers col-md-4" style="min-height:350px;">
+											<ul class="news-thumbnails">
+												<li class="clearfix">
 												
-												<img src="images/news/latest-news-tb-01.jpg" alt="latest-news-tb-01" class="pull-left">
-												
-												
-												<p class="date">Oct 5, 2013</p>
-												<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
+													<img src="images/news/latest-news-tb-01.jpg" alt="latest-news-tb-01" class="pull-left">
 												
 												
-											</li>
-											<li class="clearfix">
-												<img src="images/news/latest-news-tb-02.jpg" alt="latest-news-tb-01" class="pull-left img-responsive">
-												<p class="date">Oct 5, 2013</p>
-												<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-											</li>
-											<li class="clearfix">
-												<img src="images/news/latest-news-tb-03.jpg" alt="latest-news-tb-01" class="pull-left">
-												<p class="date">Oct 5, 2013</p>
-												<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
-											</li>
-										</ul>
-									</section>
+													<p class="date">Oct 5, 2013</p>
+													<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
+												
+												
+													</li>
+													<li class="clearfix">
+														<img src="images/news/latest-news-tb-02.jpg" alt="latest-news-tb-01" class="pull-left img-responsive">
+														<p class="date">Oct 5, 2013</p>
+														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
+													</li>
+													<li class="clearfix">
+														<img src="images/news/latest-news-tb-03.jpg" alt="latest-news-tb-01" class="pull-left">
+														<p class="date">Oct 5, 2013</p>
+														<p class="headline">Lorem Ipsum Dolore Sit Amet Oakwood</p>
+													</li>
+												</ul>
+											</section>
+											
+									</section><!--header overlay-->		
 								</div><!--row-->								
 							</div><!--container-->
 						</section> <!--two-->	 
