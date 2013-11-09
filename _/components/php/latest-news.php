@@ -21,11 +21,7 @@
 														</section><!--Latest Releases-->
 											
 											
-														<div class="row">
-															<div class="col-md-8 col-md-offset-2">
-																<a class="link-archives text-center" href="#">View Archives</a>
-															</div>
-														</div>
+														<?php include "_/components/php/btn-view-archives.php"; ?>
 													</div><!--panel body-->
 												</div><!--Collapse Two-->
 											</div><!--panel-->

@@ -59,12 +59,12 @@
 				
 				<div class="content row">
 					<div class="col-lg-12">
-						<section class="four hidden-xs">
+						<section class="four hidden-sm hidden-xs">
 						</section>
 					</div>
 				</div><!--content 4-->
 				
-				<div class="content row hidden-xs">
+				<div class="content row hidden-sm hidden-xs">
 					<div class="col-lg-12">
 						<section class="five">
 							<div class="container">
@@ -122,7 +122,7 @@
   				
   				<div class="content row">
 					<div class="col-lg-12">
-						<section class="six hidden-xs">
+						<section class="six hidden-sm hidden-xs">
 						</section>
 					</div>
 				</div><!--content 6-->
