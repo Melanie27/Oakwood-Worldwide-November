@@ -1,12 +1,12 @@
 							
 
 											<div class="panel panel-default">
-												<div class="panel-heading">
-													<h1 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+												<div class="panel-heading collapse4" id="collapse4">
+													<h1 class="title4 panel-title">
+														<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="collapser">
 										
 															<h1>Awards</h1>
-															<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseFour"></button>
+															<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseFour" id="btn-4"></button>
 
 															
 														</a>
@@ -18,7 +18,7 @@
 														<?php include "_/components/php/media-relations.php"; ?>
 											
 														<section class="awards-honors">
-															<h1>Awards and Honors</h1>
+															<h1 class="hidden-sm hidden-xs">Awards and Honors</h1>
 																<div class="row">
 																	<section class="col-md-11">
 																		<ul class="list-unstyled">

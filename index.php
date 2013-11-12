@@ -30,9 +30,9 @@
 							<section class="three container">
 								<div class="row over2">
 									<section class="col-lg-12 col-md-12">
-										<div class="row>"
+										<div class="row">
 											
-											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg hidden-sm latest-news">		
+											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg latest-news">		
 											<?php include "_/components/php/latest-news.php"; ?>
 											</section><!--Latest News-->
 											
@@ -40,7 +40,7 @@
 												<?php include "_/components/php/press-room.php"; ?>	
 											</section><!--Press Room-->	
 											
-											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols second-col">
+											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols second-col ">
 												<?php include "_/components/php/in-the-news.php"; ?>
 											</section><!--In the News-->
 												
@@ -127,9 +127,7 @@
 					</div>
 				</div><!--content 6-->
 				
-				<div class="row">
-					<footer class="col-md-4 col-md-offset-4"><a href="#" class="link-archives">Footer</a></footer>
-				</div><!--Footer-->
+				<?php include "_/components/php/footer.php"; ?>	
 
   			
   		

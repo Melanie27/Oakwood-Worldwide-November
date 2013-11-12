@@ -1,10 +1,10 @@
 									
 											<div class="panel panel-default">
-												<div class="panel-heading">
-													<h1 class="panel-title">
-														<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+												<div class="panel-heading collapse2" id="collapse2">
+													<h1 class="title2 panel-title">
+														<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapser">
 															<h1 >Press Room</h1>
-															<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseTwo"></button>	
+															<button type="button" class="btn mobile-toggle" data-toggle="button" data-target="#collapseTwo" id="btn-2"></button>	
 														</a>
 													</h1>
 												</div>	

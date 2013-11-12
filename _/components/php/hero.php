@@ -1,11 +1,10 @@
 						<section class="two container">
 							<div class="row heading">
 								<section class="col-lg-12">
-								<!--<img src="images/sitewide/bg-image-01.jpg" alt="bg-image-01" height="645" class="img-responsive source-image hidden-lg hidden-md hidden-sm">-->
-								<div class="container">
-									<h1>News</h1>
-								</div>
-								</section>	
+									<div class="container">
+										<h1>News</h1>
+									</div>
+								</section>		
 							</div><!--heading-->
 							
 							<div class="row over hidden-xs container">
