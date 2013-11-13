@@ -31,13 +31,13 @@
 						<a href="#">Industry Insights</a>
 					</li>
 					<li>
-						<a href="#">Vision and Leadership</a>
+						<a href="vision-leadership.php">Vision and Leadership</a>
 					</li>
 					<li>
-						<a href="#" class="active">News</a>
+						<a href="news.php" class="active">News</a>
 					</li>
 					<li>
-						<a href="#">Marriott</a>
+						<a href="marriott.php">Marriott</a>
 					</li>
 					<li>
 						<a href="#">Careers</a>

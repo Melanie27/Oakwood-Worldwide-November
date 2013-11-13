@@ -66,8 +66,15 @@ h1 {
 		color: @oww-poppy !important;
 		font-family: @oww-font-thin;
 		font-weight:300;
+		font-size: @oww-font-size-h1;
 	
 } 
+
+h2 {
+	font-size: @oww-font-size-h2;
+	font-weight:normal;
+	color: @oww-dark-gray; 
+}
 		
 p {
 		
@@ -93,7 +100,7 @@ p {
 }
 
 
-
+//Navigation Styles
 
 .btn.find-housing  {
 	background-color:white;
@@ -161,18 +168,74 @@ p {
 }
 
 
-.two {
+.navbar-nav > li > a {
+	color: @oww-dark-gray;
+	font-size: @oww-font-size-menu;
+	font-family: @oww-font-thin;
+}
+
+
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li > a.active {
+	color: @oww-poppy;
+	background-color:none;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #ffffff;
+} 
+
+
+/*HEADER OVERLAY*/
+
+#news .over, #home .over, #vision-leadership .over {
+	background-color:white;
+	margin: 45px auto;
+	padding:35px 30px 35px 30px;
+			
+}
+
+.heading {
+	background-color: @oww-poppy;
+	opacity:.85;
+	padding: 28px 0px 26px 0px;;
+	color: white;
+	font-family: @oww-font-thin;
+	
+		h1 {
+			margin:0px 0px 10px 0px;
+			font-weight:300;
+			color:white !important;
+			line-height:36px;
+		}
+		
+		h3 {
+			font-weight:300;
+			margin-bottom:0px;
+		}
+	}
+
+
+.oww-header {
+	padding-top:30px;
+}
+
+
+
+/*NEWS PAGE*/
+
+.two, .news.two {
 	background-image: url(../../images/sitewide/01.jpg);
 	height:512px;	
 }
 
 
-.four {
+.four, .news.four {
 	background-image: url(../../images/sitewide/bg-image-02.jpg);
 	height:380px;
 }
 
-.six {
+.six, .news.six {
 	background-image: url(../../images/sitewide/02.jpg);
 	height:200px;
 }
@@ -205,11 +268,6 @@ p {
 	}
 }
 
-footer {
-	height:250px;
-	
-}
-
 
 .date {
 	font-family:@oww-font-light;
@@ -219,55 +277,6 @@ footer {
 	
 }
 
-
-//Navigation Styles
-
-.navbar-nav > li > a {
-	color: @oww-dark-gray;
-	font-size: @oww-font-size-menu;
-	font-family: @oww-font-thin;
-}
-
-
-
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li > a.active {
-	color: @oww-poppy;
-	background-color:none;
-}
-
-.nav > li > a:hover, .nav > li > a:focus {
-	background-color: #ffffff;
-} 
-
-
-//header overlay 
-
-.over {
-	background-color:white;
-	margin: 45px auto;
-	padding:35px 30px 15px 30px;
-			
-}
-
-.heading {
-	background-color: @oww-poppy;
-	opacity:.85;
-	padding: 0px 0px;
-	color: white;
-	font-family: @oww-font-thin;
-	
-		h1 {
-			margin:0px;
-			font-weight:normal;
-			color:white !important;
-			line-height:90px;
-		}
-	}
-
-
-.oww-header {
-	padding-top:30px;
-}
 
 
 .blurb {
@@ -336,44 +345,6 @@ footer {
 }
 //Section 3
 
-@media (min-width: 1px) and (max-width: 992px) { 
-
-	.three {
-	
-
-		.cols, .latest-news, .events-mobile  {
-			padding: 0px !important;
-		}
-		
-		.link-archives {
-			line-height:40px;
-			height:40px;
-			margin:0px;
-		}
-		
-		.awards-honors {
-		
-			.link-archives {
-				margin-top:10px !important;	
-			}
-
-	
-		}
-				
-		
-	}
-
-	.five .col-md-8{
-		padding-top:0px;
-	
-		}
-
-		.five h1 {
-			padding-top:50px;
-	}
-	
-	
-} /*End Media query*/
 
 .three {
 
@@ -485,6 +456,100 @@ footer {
 	
 }
 
+
+/*MARRIOTT PAGE*/
+
+#marriott {
+	
+	.heading {
+		
+		
+		
+		h3 {
+			margin-top:0px;
+		}
+	}
+	
+	.over {
+		display:none !important;
+	}
+	
+	.two {
+		background-image: url(../../images/marriott/bg-image-01.jpg);
+	}
+	
+	.four {
+		background-image: url(../../images/marriott/bg-image-02.jpg);
+		height:200px;
+	}
+	
+	.three {
+		
+		
+		h2{
+			text-align:center;
+			font-weight:300;
+			line-height:30px;
+			font-size:23px;
+			
+		}
+		
+		
+	}
+}
+
+
+.intro {
+			padding: 40px 0px 50px;
+			
+		}
+
+hr {
+	padding:0px;
+	margin:0px;
+	color: @oww-light-gray;
+}		
+
+article.one-third-two-thirds {
+	padding: 30px 0px 60px;
+	
+	h1 {
+		margin-bottom:23px;
+		
+	}
+	
+	ul {
+		margin:12px 0px 20px 0px;
+		padding:0px 0px 0px 30px;
+	}
+}
+
+/*VISION AND LEADERSHIP*/
+
+
+#vision-leadership .two {
+	background-image:url(../../images/vision-leadership/bg-image-01.jpg);
+}
+
+#vision-leadership .four {
+	background-image:url(../../images/vision-leadership/bg-image-02.jpg);
+}
+
+#vision-leadership .six {
+	background-image:url(../../images/vision-leadership/bg-image-03.jpg);
+}
+
+/*FOOTER */
+
+footer {
+	height:250px;
+	
+}
+
+
+
+
+/*Media Queries*/
 
 @media (min-width: 992px)
 {
@@ -616,3 +681,88 @@ footer {
 }   
 
 
+@media (min-width: 1px) and (max-width: 992px) { 
+
+	.three {
+	
+
+		.cols, .latest-news, .events-mobile  {
+			padding: 0px !important;
+		}
+		
+		.link-archives {
+			line-height:40px;
+			height:40px;
+			margin:0px;
+		}
+		
+		.awards-honors {
+		
+			.link-archives {
+				margin-top:10px !important;	
+			}
+
+	
+		}
+				
+		
+	}
+
+	.five .col-md-8{
+		padding-top:0px;
+	
+		}
+
+		.five h1 {
+			padding-top:50px;
+	}
+	
+	
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+.navbar-nav > li > a {
+		font-size: 13px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+}
+
+
+@media (min-width: 481px) and (max-width: 1200px) {
+	
+	h1 {
+		font-size:28px;
+	}
+	
+	
+	
+	p {
+		font-size: 15px;
+	}
+	
+	
+	
+	.three {
+	
+		h3 {
+		font-size: 16px;
+	}	
+	
+		.first-col {
+			padding: 42px 20px 42px 0px;
+		}
+		
+		.second-col {
+			padding: 42px 20px;
+		}
+		
+		.third-col {
+			padding: 42px 20px;
+		}
+	}
+} 
+
+ /*End Media query*/

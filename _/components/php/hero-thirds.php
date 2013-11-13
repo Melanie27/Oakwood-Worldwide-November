@@ -1,11 +1,4 @@
-						<section class="two container">
-							<div class="row heading">
-								<section class="col-lg-12">
-									<div class="container">
-										<h1>News</h1>
-									</div>
-								</section>		
-							</div><!--heading-->
+						
 							
 							<div class="row over hidden-xs container">
 								<section class="col-lg-12 vert">
@@ -24,5 +17,5 @@
 										</section> <!--end three thirds-->	
 									</div><!--end nested row-->	
 								</section>	
-							</div><!--heading-->	
-						</section> <!--two container-->	
+							</div><!--row container-->	
+						
