@@ -34,7 +34,7 @@
 						<a href="vision-leadership.php">Vision and Leadership</a>
 					</li>
 					<li>
-						<a href="news.php" class="active">News</a>
+						<a href="news.php">News</a>
 					</li>
 					<li>
 						<a href="marriott.php">Marriott</a>

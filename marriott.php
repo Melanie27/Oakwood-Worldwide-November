@@ -54,16 +54,18 @@
 												</section>
 											</div><!--end nested row-->
 											<div class="row">
-												<section class="col-lg-4 col-md-5">
+												<section class="col-lg-4 col-md-5 col-sm-6">
 													<img src="images/marriott/marriott-international-01.png" alt="Marriott Building">
 												</section>
-												<section class="col-lg-8 col-md-7">
-													<ul>
+												<section class="col-lg-8 col-md-7 col-sm-6">
+													<ul class="two-col-bullets">
 														<li>Direct access to nearly 4,000 additional Marriott International locations worldwide</li>
 														<li>A seamless experience with coordination of all stay requirements</li>
 														<li>Consistent, high-quality service</li>
 														<li><a href="#">Marriott Rewards<sup>&reg;</sup></a> points at ExecuStay<sup>&reg;</sup> locations</li>
 													</ul>
+												</section>
+												<section class="col-lg-8 col-md-7 col-sm-12">
 													<p><a href="#">Marriott International</a> is the perfect hotel complement to Oakwood Worldwide's move-in ready corporate housing and serviced apartment accommodations. Together, our partnership offers more choice, convenience and customizable solutions for you and your guests.</p>
 												</section>
 											</div><!--end nested row-->

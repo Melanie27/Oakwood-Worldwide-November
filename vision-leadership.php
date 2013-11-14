@@ -40,28 +40,7 @@
 							<section class="three container">
 								<div class="row over2">
 									<section class="col-lg-12 col-md-12">
-										<div class="row">
-											
-											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg latest-news">		
-											<?php include "_/components/php/latest-news.php"; ?>
-											</section><!--Latest News-->
-											
-											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols first-col">	
-												<?php include "_/components/php/press-room.php"; ?>	
-											</section><!--Press Room-->	
-											
-											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols second-col ">
-												<?php include "_/components/php/in-the-news.php"; ?>
-											</section><!--In the News-->
-												
-											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cols third-col">	
-													<?php include "_/components/php/awards-honors.php"; ?>
-											</section><!--Awards-->		
-											
-											<section class ="hidden-lg hidden-md">
-												<?php include "_/components/php/events-mobile.php"; ?>
-											</section>	
-										</div><!--end nested row-->
+											<?php include "_/components/php/executive-committee.php"; ?>												
 									</section>
 								</div><!--row-->
 							</section><!--three-->
@@ -75,13 +54,13 @@
 					</div>
 				</div><!--content 4-->
 				
-				<div class="content row hidden-sm hidden-xs">
+				<div class="content row">
 					<div class="col-lg-12">
 						<section class="five">
 							<div class="container">
 								
 								
-								<?php include "_/components/php/events-desktop.php"; ?>	
+								<?php include "_/components/php/industry-affiliations.php"; ?>	
 
 							</div><!--container-->
 						</section><!--five-->
