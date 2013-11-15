@@ -25,18 +25,18 @@
 
 		  		<?php include "_/components/php/header.php"; ?>
 		  		
-		  			<section class="two container">
-							<div class="row heading">
-								<section class="col-lg-12">
-									<div class="container">
+		  			<section class="two">
+						<div class="row heading">
+							<section class="col-lg-12">
+								<div class="container">
 										<h1>Oakwood Worldwide<sup>&reg;</sup> and Marriott<sup>&reg;</sup> International</h1>
 										<h2>Offering the Best Selection of Housing Solutions</h2>
-									</div>
-								</section>		
-							</div><!--heading-->
+								</div>
+							</section>		
+						</div><!--heading-->
 							
-							<?php include "_/components/php/hero.php"; ?>
-		  				</section> <!--two container-->	
+						<?php include "_/components/php/hero.php"; ?>
+		  			</section> <!--two container-->	
 						
 							<section class="three container">
 								<div class="row over2">

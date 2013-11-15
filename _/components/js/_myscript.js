@@ -21,16 +21,16 @@ $('.panel-heading a').each(function (index) {
 			btnString = $('.' + subString2);
 			btnIDString = $('.' + btnID);
 					
-			console.log(btnString);
+			//console.log(btnString);
 			
 			var panelTitle  = $(this).parent().attr('class');
 			console.log(panelTitle);
 			
 			
 			titleSub = panelTitle.substring(0, 6);
-			console.log(titleSub);
+			//console.log(titleSub);
 			titleString = $('.' + titleSub);
-			console.log(titleString);
+			//console.log(titleString);
 								
 			$(hashCol).on('show.bs.collapse', function () {
 				
@@ -39,7 +39,7 @@ $('.panel-heading a').each(function (index) {
 				
 				
 			$('.panel-title').click(function () {
-					console.log(this);
+					//console.log(this);
 					$(this).find("button").addClass("contraction");
 					
 					//$(btnString).addClass("contraction");
@@ -76,3 +76,17 @@ $("#vision-leadership a:contains('Vision and Leadership')").parent().addClass('a
 $("#news a:contains('News')").parent().addClass('active');
 $("#marriott a:contains('Marriott')").parent().addClass('active');
 $("#careers a:contains('Careers')").parent().addClass('active');
+
+
+/*if ( $(window).width() < 992) {
+	
+	$('nav').removeClass("navbar-fixed-top");
+
+}
+
+if ( $(window).width() > 992) {
+	
+	$('nav').addClass("navbar-fixed-top");
+
+}*/
+

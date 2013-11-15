@@ -17,36 +17,47 @@
 				 	
 				 	
 				<!--</div><!--row-->	
-				</div><!--navbar-->
+			</div><!--navbar-->
 				 
-				 <nav class="collapse in navbar-collapse bs-navbar-collapse col-lg-9 col-md-10 col-sm-6" role="navigation" >
-					 <ul class="nav navbar-nav ">
-					<li>
-						<a href="#">Our Brands</a>
-					</li>
-					<li>
-						<a href="#">Global Corporate Housing</a>
-					</li>
-					<li>
-						<a href="#">Industry Insights</a>
-					</li>
-					<li>
-						<a href="vision-leadership.php">Vision and Leadership</a>
-					</li>
-					<li>
-						<a href="news.php">News</a>
-					</li>
-					<li>
-						<a href="marriott.php">Marriott</a>
-					</li>
-					<li>
-						<a href="#">Careers</a>
-					</li>	
-					<li>
-						<a href="#">Search</a>
-					</li>	 
-				</ul>	  	
-				</nav>
+			<nav class="collapse in navbar-collapse bs-navbar-collapse navbar-fixed-top col-lg-9 col-md-10 col-sm-6" role="navigation" >
+				<div class="container">
+					<section class="row">
+					 	<div class="col-lg-3 col-md-2 col-sm-3 col-xs-1 pull-left">
+						 	<a href="index.php" id="logo">
+							 	<img src="images/sitewide/logo-oww.jpg" alt="Oakwood Worldwide Logo" class="img-responsive"/>
+							 </a>	
+					 	</div>
+					 	<div class="col-lg-9 col-md-10 col-sm-12">
+						 		<ul class="nav navbar-nav ">
+							 		<li>
+								 		<a href="#">Our Brands</a>
+								 	</li>
+								 	<li>
+									 	<a href="#">Global Corporate Housing</a>
+									 </li>
+									 <li>
+										 <a href="#">Industry Insights</a>
+									</li>
+									<li>
+										<a href="vision-leadership.php">Vision and Leadership</a>
+									</li>
+									<li>
+										<a href="news.php">News</a>
+									</li>
+									<li>
+										<a href="marriott.php">Marriott</a>
+									</li>
+									<li>
+										<a href="#">Careers</a>
+									</li>	
+									<li>
+										<a href="#">Search</a>
+									</li>	 
+								</ul>
+					 	</div>
+					</section><!--row>
+					</div><!--container-->	  	
+			</nav>
 				
 			</div><!--row-->
 		</div><!--container-->				  									  

@@ -22,24 +22,25 @@
   </head>
   <body id="news">
   		<section class="container landing">
-
-		  		<?php include "_/components/php/header.php"; ?>
-		  		<section class="two container">
-							<div class="row heading">
-								<section class="col-lg-12">
-									<div class="container">
-										<h1>News</h1>
-									</div>
-								</section>		
-							</div><!--heading-->
-							
-							<?php include "_/components/php/hero-thirds.php"; ?>
-		  				</section> <!--two container-->	
+		  	<?php include "_/components/php/header.php"; ?>
+		  	<section class="two">
+				<div class="row heading">
+					<section class="col-lg-12">
+						<div class="container">
+							<h1>Home Page</h1>
+						</div>
+					</section>		
+				</div><!--heading-->
+				<?php include "_/components/php/hero-thirds.php"; ?>
+		  	</section> <!--two-->	
 		  				
 						
-							<section class="three container">
+						<div class="container">
+							<section class="three">
 								<div class="row over2">
 									<section class="col-lg-12 col-md-12">
+									
+										
 										<div class="row">
 											
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg latest-news">		
@@ -62,10 +63,11 @@
 												<?php include "_/components/php/events-mobile.php"; ?>
 											</section>	
 										</div><!--end nested row-->
+										
 									</section>
 								</div><!--row-->
 							</section><!--three-->
-						
+						</div>
 					
 				
 				<div class="content row">
