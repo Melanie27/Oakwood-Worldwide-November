@@ -9,6 +9,19 @@
     <link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="_/css/mystyles.css" rel="stylesheet" media="screen">
      <!--<link href="_/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">-->
+     
+     
+    
+    
+    
+     <!--Fonts-->
+     <link href="_/District-Black/stylesheet.css" rel="stylesheet" media="screen">
+         <link href="_/District-Bold/stylesheet.css" rel="stylesheet" media="screen">
+       <link href="_/District-Book/stylesheet.css" rel="stylesheet" media="screen">
+        <link href="_/District-Demi/stylesheet.css" rel="stylesheet" media="screen">
+         <link href="_/District-Light/stylesheet.css" rel="stylesheet" media="screen">
+          <link href="_/District-Medium/stylesheet.css" rel="stylesheet" media="screen">
+           <link href="_/District-Thin/stylesheet.css" rel="stylesheet" media="screen">
    
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

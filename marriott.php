@@ -30,7 +30,7 @@
 								<section class="col-lg-12">
 									<div class="container">
 										<h1>Oakwood Worldwide<sup>&reg;</sup> and Marriott<sup>&reg;</sup> International</h1>
-										<h3>Offering the Best Selection of Housing Solutions</h3>
+										<h2>Offering the Best Selection of Housing Solutions</h2>
 									</div>
 								</section>		
 							</div><!--heading-->
@@ -62,11 +62,11 @@
 														<li>Direct access to nearly 4,000 additional Marriott International locations worldwide</li>
 														<li>A seamless experience with coordination of all stay requirements</li>
 														<li>Consistent, high-quality service</li>
-														<li><a href="#">Marriott Rewards<sup>&reg;</sup></a> points at ExecuStay<sup>&reg;</sup> locations</li>
+														<li><a href="#" class="grey-links">Marriott Rewards<sup>&reg;</sup></a> points at ExecuStay<sup>&reg;</sup> locations</li>
 													</ul>
 												</section>
 												<section class="col-lg-8 col-md-7 col-sm-12">
-													<p><a href="#">Marriott International</a> is the perfect hotel complement to Oakwood Worldwide's move-in ready corporate housing and serviced apartment accommodations. Together, our partnership offers more choice, convenience and customizable solutions for you and your guests.</p>
+													<p><a href="#" class="grey-links">Marriott International</a> is the perfect hotel complement to Oakwood Worldwide's move-in ready corporate housing and serviced apartment accommodations. Together, our partnership offers more choice, convenience and customizable solutions for you and your guests.</p>
 												</section>
 											</div><!--end nested row-->
 										</article>

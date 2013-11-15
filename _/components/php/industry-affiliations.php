@@ -1,4 +1,4 @@
-<section class="row">
+<section class="row industry-affiliations">
 	<div class="col-lg-4 col-md-4">
 		<h1>Industry Affiliations</h1>
 	</div>

@@ -1,8 +1,14 @@
-			<section class="container">	
+	<section class="container">	
+		<div class="row">
+			<footer class="col-md-12 ">
+						
+					
 				<div class="row">
-					<footer class="col-md-12 ">
-						<div class="row">
-							<section class="col-lg-4 col-md-4 col-sm-4 col-xs-6 page-links">
+					<section class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+						
+						
+						<div class="row border">
+							<section class="col-lg-6 col-md-6 col-sm-6 col-xs-6 page-links">
 								<div class="row">
 									<section class="col-lg-6 col-md-6">
 										<h5>Global Solutions</h5>
@@ -34,8 +40,8 @@
 										
 									</section>
 								</div>
-							</section>
-							<section class="col-lg-4 col-md-4 col-sm-4 col-xs-6 page-links">
+							</section><!--end page links-->
+							<section class="col-lg-6 col-md-6 col-sm-6 col-xs-6 page-links">
 								<div class="row">
 									<section class="col-lg-6 col-md-6">
 										<h5>Vision & Leadership</h5>
@@ -60,39 +66,55 @@
 										</ul>
 										
 										<h5>Connect</h5>
-										<ul class="footer-lists">
+										<ul class="footer-lists social-media clearfix">
 											<li><a href="#"> <img src="images/icons/icon-twitter.jpg" alt="Twitter" /></a></li>
 											<li><a href="#"> <img src="images/icons/icon-linkedIn.jpg" alt="Linked In" /></a></li>
 											
 										</ul>
-
+												
 									</section>
-								</div>
-							
+								</div>		
+							</section><!--end page links-->
+						</div>
+						<div class="row">
+							<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 copyright">
+								<span class="icon-housing"> <img src="images/icons/icon-equal-housing.jpg" alt="icon-equal-housing" width="30" height="30" class="pull-left"/></span>
+								<p>Equal Housing Opportunity &copy;2004-2013 Oakwood Worldwide. The most trusted name in temporary housing.<sup>SM</sup></p>
 							</section>
 							
-							<section class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						</div>
+						
+						
+					</section><!--end two thirds section-->
+						
+					<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						
+
+							<section class="col-lg-12 col-md-12 col-sm-6 col-xs-12 footer-brands">
 								<h5>Our Brands</h5>
 									<div class="row">
-										<section class="col-lg-6 col-md-6">
+										<section class="col-lg-6 col-md-12 col-sm-6">
 											<img src="images/sitewide/logo-oakwood.jpg" alt="Oakwood Logo" />
 										</section>
-										<section class="col-lg-6 col-md-6">
+										<section class="col-lg-6 col-md-12 col-sm-6">
 											<img src="images/sitewide/logo-execustay.jpg" alt="Execustay Logo" />
 										</section>
 									</div><!--end nested row-->
-								<h3>Contact Us to Create Your Housing Program</h3>
+								<h2>Contact Us to Create Your Housing Program</h2>
 								<p><a href="#" class="orange-link">Contact Us --></a></p>
 								<div class="row">
-										<section class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 clearfix">
-											<a href="#" class="btn-footer pull-left">Find Housing</a>
-											<a href="#" class="btn-footer pull-left">Contact Us</a>
-										</section>
-										
-								</div><!--end nested row-->
-							</section>
-							<p>Equal Housing Opportunity 2004-2013 Oakwood Worldwide. The most trusted name in temporary housing.</p>
-						</div><!--end  nested row-->
-					</footer>
-				</div>
-			</section> <!--Footer-->
+									<section class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-sm-4 col-sm-offset-2">
+										<a href="#" class="btn-footer">Find Housing</a>
+									</section>
+									<section class="col-lg-4 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-4 col-sm-offset-1">
+										<a href="#" class="btn-footer">Contact Us</a>
+									</section>
+								</div>
+								
+							</section><!--end footer brands-->
+							
+					</section> <!--end third third-->
+				</div>	
+			</footer>
+		</div>
+	</section> <!--Footer-->
