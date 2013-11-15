@@ -37,14 +37,14 @@
   		<section class="container landing">
 
 		  		<?php include "_/components/php/header.php"; ?>
-		  		<section class="two container">
-							<div class="row heading">
-								<section class="col-lg-12">
-									<div class="container">
-										<h1>Home Page</h1>
-									</div>
-								</section>		
-							</div><!--heading-->
+		  		<section class="two">
+					<div class="row heading">
+						<section class="col-lg-12">
+							<div class="container">
+								<h1>Home Page</h1>
+							</div>
+						</section>		
+					</div><!--heading-->
 							
 							<?php include "_/components/php/hero.php"; ?>
 		  				</section> <!--two container-->	
