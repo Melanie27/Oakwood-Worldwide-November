@@ -1,4 +1,59 @@
-<header class="navbar bs-docs-nav">
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--<a class="navbar-brand" href="#">Project name</a>-->
+          <a href="index.php" id="logo" class="navbar-brand">
+				 		<img src="images/sitewide/logo-oww.jpg" alt="Oakwood Worldwide Logo" class="img-responsive"/>
+				 	</a>	
+          
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav ">
+							 		<li>
+								 		<a href="#">Our Brands</a>
+								 	</li>
+								 	<li>
+									 	<a href="#">Global Corporate Housing</a>
+									 </li>
+									 <li>
+										 <a href="#">Industry Insights</a>
+									</li>
+									<li>
+										<a href="vision-leadership.php">Vision and Leadership</a>
+									</li>
+									<li>
+										<a href="news.php">News</a>
+									</li>
+									<li>
+										<a href="marriott.php">Marriott</a>
+									</li>
+									<li>
+										<a href="#">Careers</a>
+									</li>	
+									<li>
+										<a href="#">Search</a>
+									</li>	 
+								</ul>
+
+          <!--<ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top</a></li>
+          </ul>-->
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+<!--<header class="navbar bs-docs-nav">
 	<div class="container">
 		<div class="row oww-header">
 			<div class="navbar-header col-lg-3 col-md-2 col-sm-3 col-xs-12 pull-left">	
@@ -17,9 +72,9 @@
 				 	
 				 	
 				<!--</div><!--row-->	
-			</div><!--navbar-->
+			<!--</div><!--navbar-->
 				 
-			<nav class="collapse in navbar-collapse bs-navbar-collapse navbar-fixed-top col-lg-9 col-md-10 col-sm-6" role="navigation" >
+			<!--<nav class="collapse in navbar-collapse bs-navbar-collapse navbar-fixed-top col-lg-9 col-md-10 col-sm-6" role="navigation" >
 				<div class="container">
 					<section class="row">
 					 	<div class="col-lg-3 col-md-2 col-sm-3 col-xs-1 pull-left">
@@ -57,8 +112,8 @@
 					 	</div>
 					</section><!--row>
 					</div><!--container-->	  	
-			</nav>
+			<!--</nav>
 				
 			</div><!--row-->
-		</div><!--container-->				  									  
+		<!--</div><!--container-->				  									  
 </header><!-- header -->

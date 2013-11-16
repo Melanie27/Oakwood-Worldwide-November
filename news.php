@@ -21,13 +21,15 @@
    
   </head>
   <body id="news">
+  <div class="container-full">
+  
   		<section class="container landing">
 		  	<?php include "_/components/php/header.php"; ?>
 		  	<section class="two">
 				<div class="row heading">
 					<section class="col-lg-12">
 						<div class="container">
-							<h1>Home Page</h1>
+							<h1>News</h1>
 						</div>
 					</section>		
 				</div><!--heading-->
@@ -38,10 +40,10 @@
 						<div class="container">
 							<section class="three">
 								<div class="row over2">
-									<section class="col-lg-12 col-md-12">
+									<section class="col-lg-12 col-md-12 news-columns" style="padding-left:0px;">
 									
 										
-										<div class="row">
+										<div class="row"  >
 											
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg latest-news">		
 											<?php include "_/components/php/latest-news.php"; ?>
@@ -104,7 +106,7 @@
   		
   	</section><!-- container -->
   	
-  
+  </div>
   	<script src="_/js/bootstrap.js"></script>
   	<script src="_/js/myscript.js"></script>
   </body>

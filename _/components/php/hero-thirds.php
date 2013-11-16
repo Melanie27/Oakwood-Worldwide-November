@@ -1,11 +1,13 @@
-						<section class="container">
+						<div class="container">
+							<section class="two-a">
+						
 							<div class="row over hidden-sm hidden-xs">
 								<section class="col-lg-12 vert">
 										
 										
-										<div class="row">
+										<div class="row" >
 											
-											<section class="col-lg-4 col-md-4 hidden-sm hidden-xs thirds">
+											<section class="col-lg-4 col-md-4 hidden-sm hidden-xs thirds cover-image">
 												<img src="images/news/cover-story-tb-01.jpg" alt="cover-story-tb-01" class="img-responsive">
 											</section> <!--end one third-->
 											
@@ -25,5 +27,8 @@
 								
 								</section><!--end ver-->
 							</div><!--row-->
-						</section><!--container-->	
+						
+						
+							</section><!--two-a-->
+						</div><!--container-->	
 						

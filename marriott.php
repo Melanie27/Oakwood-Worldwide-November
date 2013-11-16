@@ -21,6 +21,7 @@
    
   </head>
   <body id="marriott">
+  <div class="container-full">
   		<section class="container landing">
 
 		  		<?php include "_/components/php/header.php"; ?>
@@ -93,7 +94,7 @@
   		
   	</section><!-- container -->
   	
-  
+  </div><!--container-full-->
   	<script src="_/js/bootstrap.js"></script>
   	<script src="_/js/myscript.js"></script>
   </body>

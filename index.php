@@ -50,10 +50,13 @@
 		  				</section> <!--two container-->	
 		  				
 						
-							<section class="three container">
+							<div class="container">
+							<section class="three">
 								<div class="row over2">
-									<section class="col-lg-12 col-md-12">
-										<div class="row">
+									<section class="col-lg-12 col-md-12 news-columns" style="padding-left:0px;">
+									
+										
+										<div class="row"  >
 											
 											<section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-md hidden-lg latest-news">		
 											<?php include "_/components/php/latest-news.php"; ?>
@@ -75,9 +78,12 @@
 												<?php include "_/components/php/events-mobile.php"; ?>
 											</section>	
 										</div><!--end nested row-->
+										
 									</section>
 								</div><!--row-->
 							</section><!--three-->
+						</div>
+
 						
 					
 				
