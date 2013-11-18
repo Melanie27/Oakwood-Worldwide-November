@@ -7,6 +7,54 @@ $('.panel-title').click(function() {
 	//alert('yo');
 });
 
+$('#collapseOne').on('show.bs.collapse', function () {
+		$('#btn-1').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
+});
+
+$('#collapseOne').on('hidden.bs.collapse', function () {
+		$('#btn-1').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
+});
+
+/*Two*/
+
+$('#collapseTwo').on('show.bs.collapse', function () {
+		$('#btn-2').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
+});
+
+$('#collapseTwo').on('hidden.bs.collapse', function () {
+		$('#btn-2').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
+});
+
+/*Three*/
+
+$('#collapseThree').on('show.bs.collapse', function () {
+		$('#btn-3').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
+});
+
+$('#collapseThree').on('hidden.bs.collapse', function () {
+		$('#btn-3').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
+});
+
+/*Four*/
+
+$('#collapseFour').on('show.bs.collapse', function () {
+		$('#btn-4').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
+});
+
+$('#collapseFour').on('hidden.bs.collapse', function () {
+		$('#btn-4').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
+});
+
+/*Five*/
+
+$('#collapseFive').on('show.bs.collapse', function () {
+		$('#btn-5').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
+});
+
+$('#collapseFive').on('hidden.bs.collapse', function () {
+		$('#btn-5').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
+});
+
 
 
 $('.panel-heading a').each(function (index) {
@@ -18,49 +66,28 @@ $('.panel-heading a').each(function (index) {
 			var gString = $('.' + grandParent);
 			var btn = $(this).find("button");
 			var btnID = $(btn).attr("id");
+			
 			var subString2 = btnID.substring(0, 3);	
 			btnString = $('.' + subString2);
 			btnIDString = $('.' + btnID);
-					
-			//console.log(btnString);
 			
 			var panelTitle  = $(this).parent().attr('class');
-			console.log(panelTitle);
-			
-			
 			titleSub = panelTitle.substring(0, 6);
-			//console.log(titleSub);
 			titleString = $('.' + titleSub);
-			//console.log(titleString);
+			
 								
+			/*Add and remove the bottom border from the header when collapsing and expanding the accordion*/
+			
 			$(hashCol).on('show.bs.collapse', function () {
 				
-				$(gString).css("border-bottom", "none");
-				//$('.btn.mobile-toggle').addClass("contraction");
-				
-				
-			$('.panel-title').click(function () {
-					//console.log(this);
-					$(this).find("button").addClass("contraction");
-					
-					//$(btnString).addClass("contraction");
-					//$(btnString).removeClass("expansion");
-				});					
-		});
+				$(gString).css("border-bottom", "none");				
+			});
 		
-		
-
 		
 			$(hashCol).on('hidden.bs.collapse', function () {
 				
 				$(gString).css("border-bottom", "solid 1px #bbb");
-				
-				
-				/*$(titleString).click(function () {
-					$(btnString).removeClass("contraction");
-					$(btnString).addClass("expansion");
-				});*/
-				
+						
 		});
 
 
