@@ -2,6 +2,7 @@ $(".collapse").collapse();
 
 
 
+
 $('.panel-title').click(function() {
 	//alert('yo');
 });
