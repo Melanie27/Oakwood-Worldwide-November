@@ -30,7 +30,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   
- 
+ <script src="_/components/js/jquery-2.0.3.js"></script>
    
   </head>
   <body id="home">
