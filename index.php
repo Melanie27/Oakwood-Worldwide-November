@@ -121,7 +121,7 @@
   		
   	</section><!-- container -->
   	
-  <script src="_/components/js/jquery-2.0.3.js"></script>
+ 
   	<script src="_/js/bootstrap.js"></script>
   	<script src="_/js/myscript.js"></script>
   </body>
