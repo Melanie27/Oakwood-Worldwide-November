@@ -3,9 +3,7 @@ $(".collapse").collapse();
 
 
 
-$('.panel-title').click(function() {
-	//alert('yo');
-});
+
 
 $('#collapseOne').on('show.bs.collapse', function () {
 		$('#btn-1').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
@@ -15,7 +13,7 @@ $('#collapseOne').on('hidden.bs.collapse', function () {
 		$('#btn-1').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
 });
 
-/*Two*/
+
 
 $('#collapseTwo').on('show.bs.collapse', function () {
 		$('#btn-2').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
@@ -25,7 +23,6 @@ $('#collapseTwo').on('hidden.bs.collapse', function () {
 		$('#btn-2').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
 });
 
-/*Three*/
 
 $('#collapseThree').on('show.bs.collapse', function () {
 		$('#btn-3').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
@@ -35,7 +32,6 @@ $('#collapseThree').on('hidden.bs.collapse', function () {
 		$('#btn-3').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
 });
 
-/*Four*/
 
 $('#collapseFour').on('show.bs.collapse', function () {
 		$('#btn-4').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
@@ -45,7 +41,7 @@ $('#collapseFour').on('hidden.bs.collapse', function () {
 		$('#btn-4').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");
 });
 
-/*Five*/
+
 
 $('#collapseFive').on('show.bs.collapse', function () {
 		$('#btn-5').css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");
@@ -62,6 +58,7 @@ $('.panel-heading a').each(function (index) {
 			
 			
 			var hashCol = $(this).attr('href');
+			
 			var grandParent = $(this).parent().parent().attr('id');
 			var gString = $('.' + grandParent);
 			var btn = $(this).find("button");
@@ -69,7 +66,8 @@ $('.panel-heading a').each(function (index) {
 			
 			var subString2 = btnID.substring(0, 3);	
 			btnString = $('.' + subString2);
-			btnIDString = $('.' + btnID);
+			btnIDString = $('#' + btnID);
+			
 			
 			var panelTitle  = $(this).parent().attr('class');
 			titleSub = panelTitle.substring(0, 6);
@@ -80,13 +78,15 @@ $('.panel-heading a').each(function (index) {
 			
 			$(hashCol).on('show.bs.collapse', function () {
 				
-				$(gString).css("border-bottom", "none");				
+				$(gString).css("border-bottom", "none");
+				/*$(btnIDString).css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-contract.jpg)");*/				
 			});
 		
 		
 			$(hashCol).on('hidden.bs.collapse', function () {
 				
 				$(gString).css("border-bottom", "solid 1px #bbb");
+				/*$(btnIDString).css("background-image", "url(http://planb-november.herokuapp.com/images/icons/icon-mobile-expand.jpg)");*/
 						
 		});
 
