@@ -99,7 +99,7 @@ $('.panel-heading a').each(function (index) {
 $("#home a:contains('Home')").parent().addClass('active');
 $("#our-brands a:contains('Our Brands')").parent().addClass('active');
 $("#global-corporate-housing a:contains('Global Corporate Housing')").parent().addClass('active');
-$("#industry-insights a:contains('Industry Insights')").parent().addClass('active');
+$("#business-solutions a:contains('Business Solutions')").parent().addClass('active');
 $("#vision-leadership a:contains('Vision and Leadership')").parent().addClass('active');
 $("#news a:contains('News')").parent().addClass('active');
 $("#marriott a:contains('Marriott')").parent().addClass('active');

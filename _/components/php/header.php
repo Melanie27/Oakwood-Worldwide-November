@@ -19,13 +19,13 @@
         <div class="navbar-collapse collapse in">
         	<ul class="nav navbar-nav ">
 				<li>
-					<a href="#">Our Brands</a>
+					<a href="our-brands.php">Our Brands</a>
 				</li>
 				<li>
-					<a href="#">Global Corporate Housing</a>
+					<a href="global-services.php">Global Services</a>
 				</li>
 				<li>
-					<a href="#">Industry Insights</a>
+					<a href="business-solutions.php">Business Solutions</a>
 				</li>
 				<li>
 					<a href="vision-leadership.php">Vision and Leadership</a>
@@ -37,7 +37,7 @@
 					<a href="marriott.php">Marriott</a>
 				</li>
 				<li>
-					<a href="#">Careers</a>
+					<a href="careers.php">Careers</a>
 				</li>	
 				<li>
 					<a href="#">Search</a>
